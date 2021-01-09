@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Choices from './Choices';
 import Stats from './Stats';
+
+=======
 
 
 import lawn_mow from '../resources/lawn_mow.jpg';
 import lemonade_stand from '../resources/lemonade_stand.jpg';
 import walk_dog from '../resources/walk_dog.jpg';
 
+=======
+import Calculator from './Calculator';
 
 const Age10 = () => {
     return (
@@ -32,6 +36,7 @@ const Age10 = () => {
                     choiceTitle3="Dog Walking" 
                     choiceDesc3="Walk your elderly neighbour's dog three times a week,
                     earning $10 every walk."/>
+                <Calculator />
             </div>
        </div>
     );
