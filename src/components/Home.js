@@ -20,7 +20,7 @@ const home = () => {
                     Edit <code>src/components/Home.js</code> and save to reload.
                 </p>
                 <p>Elenka is the best</p>
-                <div className="Card-deck"> 
+                <div className="Card-deck">
                     <CardDeck>
                     <Card>
                         <Card.Img variant="top" src={lawn_mow} width="50%" height="50%" object-fit="cover"/>
