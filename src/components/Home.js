@@ -4,7 +4,6 @@ import logo from '../logo.svg';
 // import bootstrap components here
 import Button from 'react-bootstrap/Button';
 
-
 const home = () => {
     return (
         <div className="App">
@@ -16,7 +15,7 @@ const home = () => {
                     Edit <code>src/components/Home.js</code> and save to reload.
                 </p>
                 <p>Elenka is the best</p>
-                <Button variant="dark">Elenka is the worst</Button>
+                <Button variant="light">Light</Button> <Button variant="dark">Dark</Button>
             </header>
         </div>
     );
