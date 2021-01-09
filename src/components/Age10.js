@@ -1,5 +1,7 @@
 import React from 'react';
 import Choices from './Choices';
+import Stats from './Stats';
+
 
 import lawn_mow from '../resources/lawn_mow.jpg';
 import lemonade_stand from '../resources/lemonade_stand.jpg';
@@ -10,6 +12,12 @@ const Age10 = () => {
     return (
        <div className='App'>
             <h1>Age 10</h1>
+            <div className='Stat-box'>
+                <Stats
+                AgeNum="10"
+                JobNm="Placeholder"
+                CurrBalance="Placeholder"/>
+            </div>
             <div className ='Card-deck-div'>
                 <Choices
                     choiceImage1={lawn_mow}
