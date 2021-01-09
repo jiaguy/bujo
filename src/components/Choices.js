@@ -19,7 +19,7 @@ function Choices(props) {
                 <Card.Text>
                     {props.choiceDesc1}
                 </Card.Text>
-                <Button variant="primary">Select</Button>
+                <Button variant="primary" onClick="mow()">Select</Button>
                 </Card.Body>
             </Card>
             <Card id="Card">
@@ -46,4 +46,7 @@ function Choices(props) {
         );
   }
 
+  function mow() {
+    document.getElementById("choices").style.display = "none";
+  }
 export default Choices;
