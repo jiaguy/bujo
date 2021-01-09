@@ -72,23 +72,20 @@
 }
 
 .calculator-body {
-  width: 250px;
+  width: 200px;
   max-width: 400px;
   margin: auto;
   border-radius: 2px;
 }
 
-.button {
-  display: block;
+.button2 {
   background-color: #FCEADE;
-  border-radius: 10px;
+  width:50px;
+  border:none;
+  transition-duration: 0.4s;
 }
 
-button {
-  width: 25%;
-  height: 50px;
-  font-size: 25px;
-  color: #FF8A5B;
-  background-color: #fff;
-  border-radius: 2px;
+.button2:hover {
+  background-color: #FF8A5B;
+  color: white;
 }

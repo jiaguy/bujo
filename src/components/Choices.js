@@ -46,7 +46,5 @@ function Choices(props) {
         );
   }
 
-  function mow() {
-    document.getElementById("choices").style.display = "none";
-  }
+
 export default Choices;
